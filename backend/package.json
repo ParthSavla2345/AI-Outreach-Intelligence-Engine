@@ -1,0 +1,27 @@
+{
+    "name": "loc8-backend",
+    "version": "1.0.0",
+    "description": "LOC-8.0 API Backend - Node.js + Express + MongoDB",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "node --watch server.js"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.24.1",
+        "axios": "^1.7.2",
+        "bcryptjs": "^2.4.3",
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "google-auth-library": "^9.11.0",
+        "jsonwebtoken": "^9.0.2",
+        "livekit-server-sdk": "^2.15.0",
+        "mongoose": "^8.23.0",
+        "morgan": "^1.10.1",
+        "socket.io": "^4.8.3"
+    },
+    "devDependencies": {
+        "@types/socket.io": "^3.0.1"
+    }
+}
